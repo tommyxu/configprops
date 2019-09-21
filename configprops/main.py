@@ -5,12 +5,12 @@ import os
 from termcolor import colored
 
 from dotenv import load_dotenv
-load_dotenv()
 
 
 class ConfigurationProperties:
     def __init__(self, config_props_prefix: str, debug=True):
         self.config_props_prefix = config_props_prefix
+        load_dotenv()
         for key, value in self.__class__.__dict__.items():
             if key.startswith(self.config_props_prefix):
                 env_value = os.getenv(key)
