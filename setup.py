@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="configprops",
-    version="0.0.3",
+    version="0.1.1",
     author="Xu Yijun",
     author_email="xuyijun@gmail.com",
     description="'configprops' defines a set of KEYS (sharing prefix) as configuration keys. Allow overriding from environment variables.",
