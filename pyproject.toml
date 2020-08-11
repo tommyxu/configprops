@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "configprops"
+version = "0.1.0"
+description = ""
+authors = ["Xu Yijun <xuyijun@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+termcolor = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+twine = "^3.2.0"
+mypy = "^0.782"
+pylint = "^2.5.3"
+ipython = "^7.17.0"
+yapf = "^0.30.0"
+pytest = "^6.0.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
