@@ -7,6 +7,7 @@ authors = ["Xu Yijun <xuyijun@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 termcolor = "^1.1.0"
+twine = "^3.2.0"
 
 [tool.poetry.dev-dependencies]
 twine = "^3.2.0"
