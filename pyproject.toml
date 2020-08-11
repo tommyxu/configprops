@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "configprops"
-version = "1.0.0"
-description = "A configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables."
+version = "1.0.1"
+description = "This package provides a configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables."
 license = "MIT"
 authors = ["Xu Yijun <xuyijun@gmail.com>"]
-readme = "README.rst"
+readme = "README.md"
 repository = "https://github.com/tommyxu/configprops"
 classifiers=[
     "Programming Language :: Python :: 3",
