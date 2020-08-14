@@ -22,3 +22,5 @@ def test_override():
     assert config.TEST_APP_CONFIG_KEY_OTHER == 55
     assert config.TEST_APP_CONFIG_KEY_FLOAT == 8.5
     assert config.TEST_APP_CONFIG_KEY_INT == 185
+
+    print('\n%s' % config.get_config_summary())
