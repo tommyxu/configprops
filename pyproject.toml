@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "configprops"
-version = "1.0.1"
+version = "1.1.0"
 description = "This package provides a configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables."
 license = "MIT"
 authors = ["Xu Yijun <xuyijun@gmail.com>"]
