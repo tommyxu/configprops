@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "configprops"
-version = "1.2.0"
+version = "1.2.1"
 description = "This package provides a configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables."
 license = "MIT"
 authors = ["Xu Yijun <xuyijun@gmail.com>"]
@@ -25,5 +25,8 @@ pytest = "^6.0.1"
 black = "^20.8b1"
 
 [build-system]
-requires = ["poetry>=1.1.5"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 98
