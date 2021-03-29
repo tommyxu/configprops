@@ -2,7 +2,14 @@
 
 ## Introduction
 
-This package provides a configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables."
+This package provides a configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables. 
+
+## API
+
+```python
+class ConfigurationProperties(key_name_prefix:str, dot_env:bool=False, debug=False):
+ ...
+```
 
 ## Examples
 
