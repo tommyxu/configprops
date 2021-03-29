@@ -11,6 +11,8 @@ class ConfigurationProperties(key_name_prefix:str, dot_env:bool=False, debug=Fal
  ...
 ```
 
+flag `dot_env` means loading `.env` file.
+
 ## Examples
 
 ```python
