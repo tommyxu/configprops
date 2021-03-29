@@ -44,6 +44,9 @@ class ConfigurationProperties:
                         Prop(key, old_value, old_value, False)
                     )  # type: ignore
 
+        if debug:
+            print(self.get_config_summary())
+
     def get_config_summary(self) -> PrettyTable:
         pt = PrettyTable()
         pt.field_names = ["<*>", "Key", "Value", "Default"]
