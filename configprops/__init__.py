@@ -11,7 +11,8 @@ Prop = namedtuple("Prop", ["name", "value", "default_value", "overridden"])
 class ConfigurationProperties:
     def __init__(self, config_props_prefix: str, dot_env=False, *, debug=False):
         if dot_env:
-            load_dotenv(verbose=debug)
+            load_dotenv("./.env.local", verbose=debug)  # disable auto search up
+            load_dotenv("./.env", verbose=debug)  # disable auto search up
 
         self.config_props_prefix = config_props_prefix
         self.config_props: List[Prop] = []
